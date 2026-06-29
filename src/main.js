@@ -1,10 +1,10 @@
-import * as THREE from 'three'
-import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js'
-import { RoomEnvironment } from 'three/examples/jsm/environments/RoomEnvironment.js'
-import { gsap } from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
-import { SplitText } from 'gsap/SplitText'
-import Lenis from 'lenis'
+import * as THREE from 'https://esm.sh/three@0.177.0'
+import { GLTFLoader } from 'https://esm.sh/three@0.177.0/examples/jsm/loaders/GLTFLoader.js?deps=three@0.177.0'
+import { RoomEnvironment } from 'https://esm.sh/three@0.177.0/examples/jsm/environments/RoomEnvironment.js?deps=three@0.177.0'
+import { gsap } from 'https://esm.sh/gsap@3.12.5'
+import { ScrollTrigger } from 'https://esm.sh/gsap@3.12.5/ScrollTrigger?deps=gsap@3.12.5'
+import { SplitText } from 'https://esm.sh/gsap@3.12.5/SplitText?deps=gsap@3.12.5'
+import Lenis from 'https://esm.sh/lenis@1.3.4'
 
 document.addEventListener('DOMContentLoaded', () => {
 
